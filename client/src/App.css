@@ -14,12 +14,14 @@
 }
 
 .connect{
+     display: flex;
      background-color: transparent ;
      justify-content: center;
      margin-top: 5rem;
      color: white;
      height: 20px;
      border: 2px solid white;
+     cursor: pointer;
 }
 .input{
   background-color: transparent;
@@ -33,6 +35,7 @@
   border: 1px solid white;
   height: 25px;
   color: white;
+  cursor: pointer;
 }
 
 
