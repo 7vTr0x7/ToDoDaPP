@@ -1,0 +1,16 @@
+.todo__list{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+
+    border: 1px solid white;
+    margin-bottom: 10px !important;
+    background-color: transparent;
+    color: white;
+    border-radius: 1rem;
+}
+
+.icon{
+    margin-right: 1rem;
+}
