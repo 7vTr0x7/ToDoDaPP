@@ -38,7 +38,9 @@ function App() {
 }
   
   useEffect(() => {
-      getAllTasks()
+      getAllTasks();
+      addTask();
+      deleteTask();
     },[]);
     
     // Calls Metamask to connect wallet on clicking Connect Wallet button
